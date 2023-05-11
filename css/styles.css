@@ -1,4 +1,134 @@
 body {
   background: #ffffff;
+  color: #212121;
   font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  font-style: normal;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.menu-links {
+  font-weight: 500;
+  font-size: 14px;
+  color: #212121;
+}
+.menu-links:hover,
+.menu-links:focus {
+  color: #2196f3;
+  cursor: pointer;
+}
+
+.contact-links {
+  font-weight: 500;
+  font-size: 14px;
+  color: #757575;
+}
+.contact-links:hover,
+.contact-links:focus {
+  color: #2196f3;
+  cursor: pointer;
+}
+
+.portfolio-buttons {
+  font-weight: 500;
+  font-size: 16px;
+  background: #f5f4fa;
+}
+.portfolio-buttons:hover,
+.portfolio-buttons:focus {
+  color: #ffffff;
+  background: #2196f3;
+  cursor: pointer;
+}
+
+.menu-button {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+}
+.footer-button {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  color: #ffffff;
+}
+.web-button {
+  color: #2196f3;
+}
+
+.hero {
+  background: #2f303a;
+}
+.hero-header {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  color: #ffffff;
+}
+.hero-button {
+  background: #2196f3;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  color: #ffffff;
+}
+.footer {
+  background: #2f303a;
+}
+.footer-address {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+  font-style: normal;
+}
+.team {
+  background: #f5f4fa;
+}
+.team-header {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+}
+.team-card {
+  background: #ffffff;
+}
+.team-names {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+}
+.team-jobs {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #757575;
+}
+.advantages-header {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+}
+.advantages-description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #757575;
+}
+.experience-header {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
 }

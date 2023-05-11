@@ -15,27 +15,45 @@
   </head>
   <body>
     <header>
-      <a href="/index.html"><span>Web</span><span>Studio</span></a>
+      <a class="menu-button" href="./index.html">
+        <span class="web-button">Web</span><span>Studio</span></a
+      >
       <nav>
-        <menu>
-          <li><a href="#">Agencja</a></li>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">Kontakt</a></li>
-        </menu>
+        <ul>
+          <li><a class="menu-links" href="#">Agencja</a></li>
+          <li><a class="menu-links" href="#">Portfolio</a></li>
+          <li><a class="menu-links" href="#">Kontakt</a></li>
+        </ul>
       </nav>
       <ul>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+48111111111">+48 111 111 111</a></li>
+        <li>
+          <a class="contact-links" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li>
+          <a class="contact-links" href="tel:+48111111111">+48 111 111 111</a>
+        </li>
       </ul>
     </header>
     <main>
       <section>
         <ul>
-          <li><button type="button">Wszystkie</button></li>
-          <li><button type="button">Strony</button></li>
-          <li><button type="button">Aplikacje</button></li>
-          <li><button type="button">Dizajn</button></li>
-          <li><button type="button">Marketing</button></li>
+          <li>
+            <button class="portfolio-buttons" type="button">Wszystkie</button>
+          </li>
+          <li>
+            <button class="portfolio-buttons" type="button">Strony</button>
+          </li>
+          <li>
+            <button class="portfolio-buttons" type="button">Aplikacje</button>
+          </li>
+          <li>
+            <button class="portfolio-buttons" type="button">Dizajn</button>
+          </li>
+          <li>
+            <button class="portfolio-buttons" type="button">Marketing</button>
+          </li>
         </ul>
       </section>
       <section>
@@ -147,13 +165,17 @@
         </ul>
       </section>
     </main>
-    <footer>
-      <a href="#"><span>Web</span><span>Studio</span></a>
+    <footer class="footer">
+      <a class="footer-button" href="#">
+        <span class="web-button">Web</span><span>Studio</span>
+      </a>
       <address>
-        m. Warszawa, Aleje Jerozolimskie 21<br /><a
-          href="mailto:info@example.com"
+        <p class="footer-address">m. Warszawa, Aleje Jerozolimskie 21 <br /></p>
+        <a class="contact-links" href="mailto:info@example.com"
           >info@example.com</a
-        ><br /><a href="tel:+48111111111">+48 111 111 111</a>
+        >
+        <br />
+        <a class="contact-links" href="tel:+48111111111">+48 111 111 111</a>
       </address>
     </footer>
   </body>

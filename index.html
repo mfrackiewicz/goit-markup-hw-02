@@ -15,51 +15,59 @@
   </head>
   <body>
     <header>
-      <a href="#"><span>Web</span><span>Studio</span></a>
+      <a class="menu-button" href="#"
+        ><span class="web-button">Web</span><span>Studio</span>
+      </a>
       <nav>
-        <menu>
-          <li><a href="#">Agencja</a></li>
-          <li><a href="/portfolio.html">Portfolio</a></li>
-          <li><a href="#">Kontakt</a></li>
-        </menu>
+        <ul>
+          <li><a class="menu-links" href="#">Agencja</a></li>
+          <li><a class="menu-links" href="./portfolio.html">Portfolio</a></li>
+          <li><a class="menu-links" href="#">Kontakt</a></li>
+        </ul>
       </nav>
       <ul>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+48111111111">+48 111 111 111</a></li>
+        <li>
+          <a class="contact-links" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li>
+          <a class="contact-links" href="tel:+48111111111">+48 111 111 111</a>
+        </li>
       </ul>
     </header>
 
     <main>
-      <section>
-        <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-        <button type="button">Zamów usługę</button>
+      <section class="hero">
+        <h1 class="hero-header">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
+        <button class="hero-button" type="button">Zamów usługę</button>
       </section>
       <section>
         <ul>
           <li>
-            <h3>LOREM IPSUM</h3>
-            <p>
+            <h3 class="advantages-header">LOREM IPSUM</h3>
+            <p class="advantages-description">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
               arcu sem. Sed non sodales dui. Interdum et malesuada
             </p>
           </li>
           <li>
-            <h3>LOREM IPSUM</h3>
-            <p>
+            <h3 class="advantages-header">LOREM IPSUM</h3>
+            <p class="advantages-description">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
               arcu sem. Sed non sodales dui. Interdum et malesuada
             </p>
           </li>
           <li>
-            <h3>LOREM IPSUM</h3>
-            <p>
+            <h3 class="advantages-header">LOREM IPSUM</h3>
+            <p class="advantages-description">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
               arcu sem. Sed non sodales dui. Interdum et malesuada
             </p>
           </li>
           <li>
-            <h3>LOREM IPSUM</h3>
-            <p>
+            <h3 class="advantages-header">LOREM IPSUM</h3>
+            <p class="advantages-description">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
               arcu sem. Sed non sodales dui. Interdum et malesuada
             </p>
@@ -67,7 +75,7 @@
         </ul>
       </section>
       <section>
-        <h2>Czym się zajmujemy</h2>
+        <h2 class="experience-header">Czym się zajmujemy</h2>
         <ul>
           <li>
             <img
@@ -95,11 +103,11 @@
           </li>
         </ul>
       </section>
-      <section>
-        <h2>Nasz Zespół</h2>
+      <section class="team">
+        <h2 class="team-header">Nasz Zespół</h2>
         <ul>
           <li>
-            <article>
+            <article class="team-card">
               <figure>
                 <img
                   src="images/img4.jpg"
@@ -108,14 +116,14 @@
                   height="260"
                 />
                 <figcaption>
-                  <p>John Doe</p>
-                  <p>Product Designer</p>
+                  <p class="team-names">John Doe</p>
+                  <p class="team-jobs">Product Designer</p>
                 </figcaption>
               </figure>
             </article>
           </li>
           <li>
-            <article>
+            <article class="team-card">
               <figure>
                 <img
                   src="images/img5.jpg"
@@ -124,14 +132,14 @@
                   height="260"
                 />
                 <figcaption>
-                  <p>John Doe</p>
-                  <p>Frontend Developer</p>
+                  <p class="team-names">John Doe</p>
+                  <p class="team-jobs">Frontend Developer</p>
                 </figcaption>
               </figure>
             </article>
           </li>
           <li>
-            <article>
+            <article class="team-card">
               <figure>
                 <img
                   src="images/img6.jpg"
@@ -140,14 +148,14 @@
                   height="260"
                 />
                 <figcaption>
-                  <p>John Doe</p>
-                  <p>Marketing</p>
+                  <p class="team-names">John Doe</p>
+                  <p class="team-jobs">Marketing</p>
                 </figcaption>
               </figure>
             </article>
           </li>
           <li>
-            <article>
+            <article class="team-card">
               <figure>
                 <img
                   src="images/img7.jpg"
@@ -156,8 +164,8 @@
                   height="260"
                 />
                 <figcaption>
-                  <p>John Doe</p>
-                  <p>UI Designer</p>
+                  <p class="team-names">John Doe</p>
+                  <p class="team-jobs">UI Designer</p>
                 </figcaption>
               </figure>
             </article>
@@ -165,13 +173,17 @@
         </ul>
       </section>
     </main>
-    <footer>
-      <a href="#"><span>Web</span><span>Studio</span></a>
+    <footer class="footer">
+      <a class="footer-button" href="#"
+        ><span class="web-button">Web</span><span>Studio</span>
+      </a>
       <address>
-        m. Warszawa, Aleje Jerozolimskie 21<br /><a
-          href="mailto:info@example.com"
+        <p class="footer-address">m. Warszawa, Aleje Jerozolimskie 21 <br /></p>
+        <a class="contact-links" href="mailto:info@example.com"
           >info@example.com</a
-        ><br /><a href="tel:+48111111111">+48 111 111 111</a>
+        >
+        <br />
+        <a class="contact-links" href="tel:+48111111111">+48 111 111 111</a>
       </address>
     </footer>
   </body>
