@@ -3,56 +3,64 @@ body {
   color: #212121;
   font-family: "Roboto", sans-serif;
 }
-
-a {
-  text-decoration: none;
-  color: inherit;
-  font-style: normal;
-}
-
-ul {
+.menu-links {
   list-style-type: none;
 }
-
-.menu-links {
+.menu-links-item {
   font-weight: 500;
   font-size: 14px;
+  line-height: 16px;
   color: #212121;
+  text-decoration: none;
+  font-style: normal;
 }
-.menu-links:hover,
-.menu-links:focus {
+.menu-links-item:hover,
+.menu-links-item:focus {
   color: #2196f3;
   cursor: pointer;
 }
-
 .contact-links {
+  list-style-type: none;
+}
+.contact-links-item {
   font-weight: 500;
   font-size: 14px;
+  line-height: 16px;
   color: #757575;
+  text-decoration: none;
+  font-style: normal;
 }
-.contact-links:hover,
-.contact-links:focus {
+.contact-links-item:hover,
+.contact-links-item:focus {
   color: #2196f3;
   cursor: pointer;
 }
-
-.portfolio-buttons {
+.portfolio-button {
+  list-style-type: none;
+}
+.portfolio-button-item {
   font-weight: 500;
   font-size: 16px;
+  line-height: 26px;
   background: #f5f4fa;
 }
-.portfolio-buttons:hover,
-.portfolio-buttons:focus {
+.portfolio-button-item:hover,
+.portfolio-button-item:focus {
   color: #ffffff;
   background: #2196f3;
   cursor: pointer;
 }
-
 .menu-button {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
+  line-height: 31px;
+  text-decoration: none;
+  color: inherit;
+}
+.menu-button:hover {
+  cursor: pointer;
 }
 .footer-button {
   font-family: "Raleway";
@@ -60,6 +68,7 @@ ul {
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
+  text-decoration: none;
   color: #ffffff;
 }
 .web-button {
@@ -95,6 +104,9 @@ ul {
 .team {
   background: #f5f4fa;
 }
+.team-item {
+  list-style-type: none;
+}
 .team-header {
   font-style: normal;
   font-weight: 700;
@@ -116,6 +128,9 @@ ul {
   line-height: 19px;
   color: #757575;
 }
+.advantages {
+  list-style-type: none;
+}
 .advantages-header {
   font-weight: 700;
   font-size: 14px;
@@ -127,8 +142,25 @@ ul {
   line-height: 24px;
   color: #757575;
 }
+.experience {
+  list-style-type: none;
+}
 .experience-header {
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
+}
+.portfolio-item {
+  list-style-type: none;
+}
+.portfolio-item-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+}
+.portfolio-item-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #757575;
 }
