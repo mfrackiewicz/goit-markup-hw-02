@@ -43,6 +43,8 @@ body {
   font-size: 16px;
   line-height: 1.6;
   background: #f5f4fa;
+  border-radius: 4px;
+  border: none;
 }
 .portfolio-button-item:hover,
 .portfolio-button-item:focus {
@@ -59,7 +61,8 @@ body {
   text-decoration: none;
   color: inherit;
 }
-.menu-button:hover {
+.menu-button:hover,
+.menu-button:focus {
   cursor: pointer;
 }
 .footer-button {
@@ -90,6 +93,13 @@ body {
   font-size: 16px;
   line-height: 1.9;
   color: #ffffff;
+  stroke: solid;
+  border-radius: 4px;
+  border: none;
+}
+.hero-button:hover,
+.hero-button:focus {
+  cursor: pointer;
 }
 .footer {
   background: #2f303a;
